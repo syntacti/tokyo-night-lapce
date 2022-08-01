@@ -95,13 +95,13 @@ magenta = "#bb9af7"
 "hover.background" = "#24283b"
 
 "activity.background" = "#24283b"
-"activity.current" = "#bdc7f0"
+"activity.current" = "#1a1b26"
 
 "panel.background" = "#24283b"
-"panel.current" = "$grey"
+"panel.current" = "#1a1b26"
 "panel.hovered" = "#1f1d2e" 
 
-"status.background" = "#bdc7f0"
+"status.background" = "#1a1b26"
 "status.modal.normal" = "$blue"
 "status.modal.insert" = "$red"
 "status.modal.visual" = "$yellow"

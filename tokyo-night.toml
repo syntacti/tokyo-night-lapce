@@ -54,7 +54,7 @@ magenta = "#bb9af7"
 "embedded" = "$cyan"
 
 [theme.ui]
-"lapce.active_tab" = "#bdc7f0"
+"lapce.active_tab" = "#24283b"
 "lapce.inactive_tab" = "#959cbd"
 "lapce.error" = "$red"
 "lapce.warn" = "$yellow"
@@ -66,7 +66,7 @@ magenta = "#bb9af7"
 "editor.background" = "#1a1b26" # base
 "editor.foreground" = "#a9b1d6"
 "editor.dim" = "#5C6370"
-"editor.focus" = "#CCCCCC"
+"editor.focus" = "#24283b"
 "editor.caret" = "#528BFF"
 "editor.selection" = "#403d52"
 "editor.current_line" = "#21202e"
@@ -87,21 +87,21 @@ magenta = "#bb9af7"
 "source_control.modified" = "#0184BC32"
 
 "palette.background" = "#1a1b26"
-"palette.current" = "$grey"
+"palette.current" = "#24283b"
 
 "completion.background" = "#1a1b26"
-"completion.current" = "$grey"
+"completion.current" = "#24283b"
 
 "hover.background" = "#1a1b26"
 
 "activity.background" = "#1a1b26"
-"activity.current" = "#bdc7f0"
+"activity.current" = "#24283b"
 
 "panel.background" = "#1a1b26"
-"panel.current" = "$grey"
-"panel.hovered" = "#1f1d2e" 
+"panel.current" = "#24283b"
+"panel.hovered" = "#1a1b26" 
 
-"status.background" = "#bdc7f0"
+"status.background" = "#24283b"
 "status.modal.normal" = "$blue"
 "status.modal.insert" = "$red"
 "status.modal.visual" = "$yellow"
