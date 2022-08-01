@@ -1,0 +1,7 @@
+name = "tokyo-night"
+version = "0.1.0"
+display-name = "Tokyo Night"
+author = "ghishadow"
+description = "A clean, dark Lapce theme that celebrates the lights of Downtown Tokyo at night."
+repository = "ghishadow/tokyo-night-lapce"
+themes = ["tokyo-night.toml", "tokyo-night-storm.toml", "tokyo-night-light.toml"]

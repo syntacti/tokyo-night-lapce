@@ -1,0 +1,130 @@
+[theme]
+name = "Tokyo Night"
+
+[ui]
+font-family = ""
+font-size = 13
+header-height = 35
+status-height = 25
+tab-min-width = 100
+activity-width = 50
+scroll-width = 10
+drop-shadow-width = 0
+
+[theme.base]
+white = "#c0caf5"
+black = "#414868"
+grey = "#9aa5ce"
+blue = "#7aa2f7"
+red = "#f7768e"
+yellow = "#e0af68"
+orange = "#ebbcba"
+green = "#73daca"
+purple = "#e0def4"
+cyan = "#7dcfff"
+magenta = "#bb9af7"
+
+[theme.syntax]
+"comment" = "#565f89"
+"boolean" = "#ff9e64"
+"constant" = "#ff9e64"
+"type" = "#9ccfd8"
+"typeAlias" = "#9ccfd8"
+"number" = "#ff9e64"
+"enum" = "$yellow"
+"struct" = "$white"
+"structure" = "$yellow"
+"interface" = "$yellow"
+"attribute" = "$yellow"
+"constructor" = "$yellow"
+"function" = "$blue"
+"method" = "$blue"
+"function.method" = "$blue"
+"keyword" = "$magneta"
+"selfKeyword" = "$purple"
+"field" = "$red"
+"property" = "$red"
+"enumMember" = "$red"
+"enum-member" = "$red"
+"variable.other.member" = "$red"
+"string" = "#9ece6a"
+"type.builtin" = "$cyan"
+"builtinType" = "$cyan"
+"escape" = "$cyan"
+"embedded" = "$cyan"
+
+[theme.ui]
+"lapce.active_tab" = "#bdc7f0"
+"lapce.inactive_tab" = "#959cbd"
+"lapce.error" = "$red"
+"lapce.warn" = "$yellow"
+"lapce.dropdown_shadow" = "#1f1d2e"
+"lapce.border" = "#1f1d2e"
+"lapce.scroll_bar" = "$grey"
+
+
+"editor.background" = "#1a1b26" # base
+"editor.foreground" = "#a9b1d6"
+"editor.dim" = "#5C6370"
+"editor.focus" = "#CCCCCC"
+"editor.caret" = "#528BFF"
+"editor.selection" = "#403d52"
+"editor.current_line" = "#21202e"
+"editor.link" = "$magneta"
+
+"inlay_hint.foreground" = "$white"
+"inlay_hint.background" = "#524f6788"
+
+"error_lens.error.foreground" = "$red"
+"error_lens.error.background" = "#E06C7520"
+"error_lens.warning.foreground" = "$yellow"
+"error_lens.warning.background" = "#E5C07B20"
+"error_lens.other.foreground" = "#5C6370"
+"error_lens.other.background" = "#5C637020"
+
+"source_control.added" = "#50A14F32"
+"source_control.removed" = "#FF526632"
+"source_control.modified" = "#0184BC32"
+
+"palette.background" = "#1a1b26"
+"palette.current" = "$grey"
+
+"completion.background" = "#1a1b26"
+"completion.current" = "$grey"
+
+"hover.background" = "#1a1b26"
+
+"activity.background" = "#1a1b26"
+"activity.current" = "#bdc7f0"
+
+"panel.background" = "#1a1b26"
+"panel.current" = "$grey"
+"panel.hovered" = "#1f1d2e" 
+
+"status.background" = "#bdc7f0"
+"status.modal.normal" = "$blue"
+"status.modal.insert" = "$red"
+"status.modal.visual" = "$yellow"
+"status.modal.terminal" = "$purple"
+
+"markdown.blockquote" = "#9aa5ce"
+
+"terminal.cursor" = "$white"
+"terminal.foreground" = "$white"
+"terminal.background" = "#1a1b26"
+"terminal.white" = "$white"
+"terminal.black" = "$black"
+"terminal.red" = "$red"
+"terminal.blue" = "$blue"
+"terminal.green" = "$green"
+"terminal.yellow" = "$yellow"
+"terminal.cyan" = "$cyan"
+"terminal.magenta" = "$magenta"
+"terminal.bright_white" = "$white"
+"terminal.bright_red" = "$red"
+"terminal.bright_blue" = "$blue"
+"terminal.bright_green" = "$green"
+"terminal.bright_yellow" = "$yellow"
+"terminal.bright_cyan" = "$cyan"
+"terminal.bright_magenta" = "$magenta"
+"terminal.bright_black" = "$black"

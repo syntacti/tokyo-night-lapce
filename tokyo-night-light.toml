@@ -1,0 +1,133 @@
+[theme]
+name = "Tokyo Night Light"
+
+[ui]
+font-family = ""
+font-size = 13
+header-height = 35
+status-height = 25
+tab-min-width = 100
+activity-width = 50
+scroll-width = 10
+drop-shadow-width = 0
+
+[theme.base]
+white = "#343b58"
+black = "#0f0f14"
+grey = "#f2e9e1"
+blue = "#34548a"
+red = "#8c4351"
+yellow = "#8f5e15"
+green = "#33635c"
+purple = "#A626A4"
+cyan = "#0f4b6e"
+magenta = "#5a4a78"
+
+[theme.syntax]
+"comment" = "#9699a3"
+"boolean" = "#965027"
+"constant" = "#965027"
+"type" = "$green"
+"typeAlias" = "$green"
+"number" = "#965027"
+"enum" = "$yellow"
+"struct" = "$yellow"
+"structure" = "$yellow"
+"interface" = "$yellow"
+"attribute" = "$yellow"
+"constructor" = "$yellow"
+
+"function" = "$blue"
+"method" = "$blue"
+"function.method" = "$blue"
+
+"keyword" = "$magneta"
+"selfKeyword" = "$magneta"
+
+"field" = "$red"
+"property" = "$red"
+"enumMember" = "$red"
+"enum-member" = "$red"
+"variable.other.member" = "$red"
+
+"string" = "#485e30"
+
+"type.builtin" = "$cyan"
+"builtinType" = "$cyan"
+"escape" = "$cyan"
+"embedded" = "$cyan"
+
+[theme.ui]
+"lapce.active_tab" = "$white"
+"lapce.inactive_tab" = "$grey"
+"lapce.error" = "$red"
+"lapce.warn" = "#E9A700"
+"lapce.dropdown_shadow" = "#cecacd"
+"lapce.border" = "#cecacd"
+"lapce.scroll_bar" = "#cecacd"
+
+"terminal.cursor" = "#cecacd"
+"terminal.foreground" = "$white"
+"terminal.background" = "#d5d6db"
+"terminal.white" = "$white"
+"terminal.black" = "$grey"
+"terminal.red" = "$red"
+"terminal.blue" = "$blue"
+"terminal.green" = "$green"
+"terminal.yellow" = "$yellow"
+"terminal.cyan" = "$cyan"
+"terminal.magenta" = "$magenta"
+"terminal.bright_white" = "$white"
+"terminal.bright_red" = "$red"
+"terminal.bright_blue" = "$blue"
+"terminal.bright_green" = "$green"
+"terminal.bright_yellow" = "$yellow"
+"terminal.bright_cyan" = "$cyan"
+"terminal.bright_magenta" = "$magenta"
+"terminal.bright_black" = "$black"
+
+"editor.background" = "#d5d6db"
+"editor.foreground" = "$white"
+"editor.dim" = "#A0A1A7"
+"editor.focus" = "#000000"
+"editor.caret" = "#526FFF"
+"editor.selection" = "$grey"
+"editor.current_line" = "#F2F2F2"
+"editor.link" = "$cyan"
+
+"inlay_hint.foreground" = "$black"
+"inlay_hint.background" = "#cecacd88"
+
+"error_lens.error.foreground" = "$red"
+"error_lens.error.background" = "#E4564920"
+"error_lens.warning.foreground" = "$yellow"
+"error_lens.warning.background" = "#C1840120"
+"error_lens.other.foreground" = "#A0A1A7"
+"error_lens.other.background" = "#A0A1A720"
+
+"source_control.added" = "#50A14F32"
+"source_control.removed" = "#FF526632"
+"source_control.modified" = "#0184BC32"
+
+"palette.background" = "#d5d6db"
+"palette.current" = "#DBDBDC"
+
+"completion.background" = "#d5d6db"
+"completion.current" = "#DBDBDC"
+
+"hover.background" = "#d5d6db"
+
+"activity.background" = "#d5d6db"
+"activity.current" = "$white"
+
+"panel.background" = "#d5d6db"
+"panel.current" = "#DBDBDC"
+"panel.hovered" = "#E4E4E6"
+
+"status.background" = "#d5d6db"
+"status.modal.normal" = "$blue"
+"status.modal.insert" = "$red"
+"status.modal.visual" = "$yellow"
+"status.modal.terminal" = "$purple"
+
+"markdown.blockquote" = "#f4ede8"
