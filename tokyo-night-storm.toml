@@ -1,4 +1,5 @@
-[theme]
+#:schema https://raw.githubusercontent.com/lapce/lapce/master/extra/schemas/color-theme.json
+[color-theme]
 name = "Tokyo Night Storm"
 
 [ui]
@@ -11,7 +12,7 @@ activity-width = 50
 scroll-width = 10
 drop-shadow-width = 0
 
-[theme.base]
+[color-theme.base]
 white = "#c0caf5"
 black = "#414868"
 grey = "#9aa5ce"
@@ -24,7 +25,7 @@ purple = "#e0def4"
 cyan = "#7dcfff"
 magenta = "#bb9af7"
 
-[theme.syntax]
+[color-theme.syntax]
 "comment" = "#565f89"
 "boolean" = "#ff9e64"
 "constant" = "#ff9e64"
@@ -76,7 +77,7 @@ magenta = "#bb9af7"
 "keyword.storage.type" = "#ff9e64"
 "keyword.storage.modifier" = "$blue"
 
-[theme.ui]
+[color-theme.ui]
 "lapce.active_tab" = "#bdc7f0"
 "lapce.inactive_tab" = "#959cbd"
 "lapce.error" = "$red"

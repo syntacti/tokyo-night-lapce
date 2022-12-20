@@ -1,4 +1,5 @@
-[theme]
+#:schema https://raw.githubusercontent.com/lapce/lapce/master/extra/schemas/color-theme.json
+[color-theme]
 name = "Tokyo Night Light"
 
 [ui]
@@ -11,7 +12,7 @@ activity-width = 50
 scroll-width = 10
 drop-shadow-width = 0
 
-[theme.base]
+[color-theme.base]
 white = "#343b58"
 black = "#0f0f14"
 grey = "#f2e9e1"
@@ -22,14 +23,14 @@ green = "#33635c"
 purple = "#A626A4"
 cyan = "#0f4b6e"
 magenta = "#5a4a78"
+orange = "#D19A66"
 
-[theme.syntax]
-"comment" = "#9699a3"
-"boolean" = "#965027"
-"constant" = "#965027"
-"type" = "$green"
-"typeAlias" = "$green"
-"number" = "#965027"
+[color-theme.syntax]
+"comment" = "#A0A1A7"
+"constant" = "$yellow"
+"type" = "$yellow"
+"typeAlias" = "$yellow"
+"number" = "$yellow"
 "enum" = "$yellow"
 "struct" = "$yellow"
 "structure" = "$yellow"
@@ -41,30 +42,65 @@ magenta = "#5a4a78"
 "method" = "$blue"
 "function.method" = "$blue"
 
-"keyword" = "$magneta"
-"selfKeyword" = "$magneta"
+"keyword" = "$purple"
+"selfKeyword" = "$purple"
 
 "field" = "$red"
 "property" = "$red"
 "enumMember" = "$red"
 "enum-member" = "$red"
-"variable.other.member" = "$red"
 
-"string" = "#485e30"
+"string" = "$green"
+"string.escape" = "$cyan"
 
 "type.builtin" = "$cyan"
 "builtinType" = "$cyan"
 "escape" = "$cyan"
 "embedded" = "$cyan"
 
-[theme.ui]
-"lapce.active_tab" = "$white"
-"lapce.inactive_tab" = "$grey"
+"punctuation.delimiter" = "$yellow"
+"text.title" = "$orange"
+"text.uri" = "$cyan"
+"text.reference" = "$yellow"
+"variable" = "$red"
+"variable.other.member" = "$green"
+"tag" = "$blue"
+
+[color-theme.ui]
+
 "lapce.error" = "$red"
 "lapce.warn" = "#E9A700"
 "lapce.dropdown_shadow" = "#cecacd"
 "lapce.border" = "#cecacd"
 "lapce.scroll_bar" = "#cecacd"
+
+"lapce.button.primary.background" = "#50a14f"
+"lapce.button.primary.foreground" = "$white"
+
+# tab
+"lapce.tab.active.background" = "$white"
+"lapce.tab.active.foreground" = "$black"
+"lapce.tab.active.underline" = "#528BFF"
+
+"lapce.tab.inactive.background" = "$grey"
+"lapce.tab.inactive.foreground" = "$black"
+"lapce.tab.inactive.underline" = "#528BFF77"
+
+"lapce.tab.separator" = "#B4B4B4"
+
+"lapce.icon.active" = "$black"
+"lapce.icon.inactive" = "#A0A1A7"
+
+"lapce.remote.icon" = "$white"
+"lapce.remote.local" = "#4078F2"
+"lapce.remote.connected" = "#50A14F"
+"lapce.remote.connecting" = "#C18401"
+"lapce.remote.disconnected" = "#E45649"
+
+"lapce.plugin.name" = "#444444"
+"lapce.plugin.description" = "$black"
+"lapce.plugin.author" = "#707070"
+
 
 "terminal.cursor" = "#cecacd"
 "terminal.foreground" = "$white"
@@ -86,6 +122,7 @@ magenta = "#5a4a78"
 "terminal.bright_magenta" = "$magenta"
 "terminal.bright_black" = "$black"
 
+
 "editor.background" = "#d5d6db"
 "editor.foreground" = "$white"
 "editor.dim" = "#A0A1A7"
@@ -95,8 +132,15 @@ magenta = "#5a4a78"
 "editor.current_line" = "#F2F2F2"
 "editor.link" = "$cyan"
 
+"editor.visible_whitespace" = "$grey"
+"editor.indent_guide" = "$grey"
+"editor.drag_drop_background" = "#79c1fc33"
+"editor.drag_drop_tab_background" = "#0b0e1433"
+"editor.sticky_header_background" = "$white"
+
 "inlay_hint.foreground" = "$black"
 "inlay_hint.background" = "#cecacd88"
+
 
 "error_lens.error.foreground" = "$red"
 "error_lens.error.background" = "#E4564920"
@@ -109,25 +153,108 @@ magenta = "#5a4a78"
 "source_control.removed" = "#FF526632"
 "source_control.modified" = "#0184BC32"
 
-"palette.background" = "#d5d6db"
-"palette.current" = "#DBDBDC"
+"palette.background" = "#EAEAEB"
+"palette.foreground" = "$black"
+"palette.current.background" = "#DBDBDC"
+"palette.current.foreground" = "$black"
 
-"completion.background" = "#d5d6db"
+"completion.background" = "#EAEAEB"
 "completion.current" = "#DBDBDC"
 
-"hover.background" = "#d5d6db"
+"hover.background" = "#EAEAEB"
 
-"activity.background" = "#d5d6db"
+"activity.background" = "#EAEAEB"
 "activity.current" = "$white"
 
-"panel.background" = "#d5d6db"
-"panel.current" = "#DBDBDC"
-"panel.hovered" = "#E4E4E6"
+"panel.background" = "#EAEAEB"
+"panel.foreground" = "$black"
+"panel.foreground.dim" = "#A0A1A7"
+"panel.current.background" = "#DBDBDC"
+"panel.current.foreground" = "$black"
+"panel.current.foreground.dim" = "#A0A1A7"
+"panel.hovered.background" = "#E4E4E6"
+"panel.hovered.foreground" = "$black"
+"panel.hovered.foreground.dim" = "#A0A1A7"
 
-"status.background" = "#d5d6db"
+"status.background" = "#EAEAEB"
+"status.foreground" = "$black"
 "status.modal.normal" = "$blue"
 "status.modal.insert" = "$red"
 "status.modal.visual" = "$yellow"
 "status.modal.terminal" = "$purple"
 
 "markdown.blockquote" = "#f4ede8"
+
+# [color-theme.base]
+
+
+# [color-theme.syntax]
+# "comment" = "#9699a3"
+# "boolean" = "#965027"
+# "constant" = "#965027"
+# "type" = "$green"
+# "typeAlias" = "$green"
+# "number" = "#965027"
+# "enum" = "$yellow"
+# "struct" = "$yellow"
+# "structure" = "$yellow"
+# "interface" = "$yellow"
+# "attribute" = "$yellow"
+# "constructor" = "$yellow"
+
+# "function" = "$blue"
+# "method" = "$blue"
+# "function.method" = "$blue"
+
+# "keyword" = "$magneta"
+# "selfKeyword" = "$magneta"
+
+# "field" = "$red"
+# "property" = "$red"
+# "enumMember" = "$red"
+# "enum-member" = "$red"
+# "variable.other.member" = "$red"
+
+# "string" = "#485e30"
+
+# "type.builtin" = "$cyan"
+# "builtinType" = "$cyan"
+# "escape" = "$cyan"
+# "embedded" = "$cyan"
+
+# [color-theme.ui]
+
+
+
+
+
+
+
+
+
+
+# "source_control.added" = "#50A14F32"
+# "source_control.removed" = "#FF526632"
+# "source_control.modified" = "#0184BC32"
+
+# "palette.background" = "#d5d6db"
+# "palette.current" = "#DBDBDC"
+
+# "completion.background" = "#d5d6db"
+# "completion.current" = "#DBDBDC"
+
+# "hover.background" = "#d5d6db"
+
+# "activity.background" = "#d5d6db"
+# "activity.current" = "$white"
+
+# "panel.background" = "#d5d6db"
+# "panel.current" = "#DBDBDC"
+# "panel.hovered" = "#E4E4E6"
+
+# "status.background" = "#d5d6db"
+# "status.modal.normal" = "$blue"
+# "status.modal.insert" = "$red"
+# "status.modal.visual" = "$yellow"
+# "status.modal.terminal" = "$purple"
+
