@@ -72,11 +72,11 @@ yellow = "#e0af68"
 "lapce.button.primary.foreground" = "$black"
 
 # tab
-"lapce.tab.active.background" = "$black"
+"lapce.tab.active.background" = "#1a1b26"
 "lapce.tab.active.foreground" = "$white"
 "lapce.tab.active.underline" = "#528BFF"
 
-"lapce.tab.inactive.background" = "$black"
+"lapce.tab.inactive.background" = "#1a1b26"
 "lapce.tab.inactive.foreground" = "$white"
 "lapce.tab.inactive.underline" = "#528BFF77"
 

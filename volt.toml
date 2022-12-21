@@ -1,6 +1,6 @@
 name = "tokyo-night"
 version = "0.1.0"
-display-name = "Tokyo Night [Beta]"
+display-name = "Tokyo Night [Alpha]"
 author = "Syntacti"
 description = "A clean, dark Lapce theme that celebrates the lights of Downtown Tokyo at night."
 repository = "https://github.com/syntacti/tokyo-night-lapce"

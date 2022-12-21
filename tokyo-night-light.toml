@@ -78,7 +78,7 @@ orange = "#D19A66"
 "lapce.button.primary.foreground" = "$white"
 
 # tab
-"lapce.tab.active.background" = "$white"
+"lapce.tab.active.background" = "#d5d6db"
 "lapce.tab.active.foreground" = "$black"
 "lapce.tab.active.underline" = "#528BFF"
 

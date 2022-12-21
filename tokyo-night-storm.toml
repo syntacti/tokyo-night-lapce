@@ -86,6 +86,17 @@ magenta = "#bb9af7"
 "lapce.border" = "#1f1d2e"
 "lapce.scroll_bar" = "$grey"
 
+# tab
+"lapce.tab.active.background" = "#24283b"
+"lapce.tab.active.foreground" = "$white"
+"lapce.tab.active.underline" = "#528BFF"
+
+"lapce.tab.inactive.background" = "#24283b"
+"lapce.tab.inactive.foreground" = "$white"
+"lapce.tab.inactive.underline" = "#528BFF77"
+
+"lapce.tab.separator" = ""
+
 
 "editor.background" = "#24283b" # base
 "editor.foreground" = "#a9b1d6"
