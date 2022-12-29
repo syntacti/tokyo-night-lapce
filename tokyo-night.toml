@@ -68,8 +68,8 @@ yellow = "#e0af68"
 "lapce.border" = "#1f1d2e"
 "lapce.scroll_bar" = "$grey"
 
-"lapce.button.primary.background" = "#50a14f"
-"lapce.button.primary.foreground" = "$black"
+"lapce.button.primary.background" = "#3d59a1dd"
+"lapce.button.primary.foreground" = "#ffffff"
 
 # tab
 "lapce.tab.active.background" = "#1a1b26"
@@ -144,21 +144,18 @@ yellow = "#e0af68"
 
 
 "palette.background" = "#1a1b26"
-"palette.current" = "#30374b"
 "palette.foreground" = "$white"
-"palette.current.background" = "#16161e"
+"palette.current.background" = "#30374b"
 "palette.current.foreground" = "$white"
 
 
-"panel.background" = "#1a1b26"
-"panel.current" = "#30374b"
-"panel.hovered" = "#1a1b26" 
-"panel.foreground" = "$white"
+"panel.background" = "#16161e" 
+"panel.foreground" = "#787c99"
 "panel.foreground.dim" = "#30374b"
-"panel.current.background" = "#2C313A"
+"panel.current.background" = "#30374b"
 "panel.current.foreground" = "$white"
 "panel.current.foreground.dim" = "#30374b"
-"panel.hovered.background" = "#343A45"
+"panel.hovered.background" = "#30374b"
 "panel.hovered.foreground" = "$white"
 "panel.hovered.foreground.dim" = "#30374b"
 
