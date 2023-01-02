@@ -1,8 +1,8 @@
 name = "tokyo-night"
-version = "0.1.2"
-display-name = "Tokyo Night [Beta]"
+version = "0.1.3"
+display-name = "Tokyo Night"
 author = "Syntacti"
 description = "A clean, dark Lapce theme that celebrates the lights of Downtown Tokyo at night."
 repository = "https://github.com/syntacti/tokyo-night-lapce"
-color-themes = ["tokyo-night.toml", "tokyo-night-storm.toml", "tokyo-night-light.toml"]
+color-themes = ["tokyo-night.toml", "tokyo-night-storm.toml", "tokyo-night-light.toml", "tokyo-night-oled.toml"]
 icon = "assets/icon.png"
