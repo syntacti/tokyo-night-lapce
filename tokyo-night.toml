@@ -155,11 +155,15 @@ yellow = "#e0af68"
 
 
 "status.background" = "#24283b"
-"status.modal.normal" = "$blue"
-"status.modal.insert" = "$red"
-"status.modal.visual" = "$yellow"
-"status.modal.terminal" = "$purple"
 "status.foreground" = "$white"
+"status.modal.normal.background" = "$blue"
+"status.modal.normal.foreground" = "$black"
+"status.modal.insert.background" = "$red"
+"status.modal.insert.foreground" = "$black"
+"status.modal.visual.background" = "$yellow"
+"status.modal.visual.foreground" = "$black"
+"status.modal.terminal.background" = "$purple"
+"status.modal.terminal.foreground" = "$black"
 
 "markdown.blockquote" = "#9aa5ce"
 
