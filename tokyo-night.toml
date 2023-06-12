@@ -82,11 +82,11 @@ yellow = "#e0af68"
 
 "lapce.tab.separator" = ""
 
-"lapce.remote.icon" = "$black"
-"lapce.remote.local" = "#4078F2"
-"lapce.remote.connected" = "#50A14F"
-"lapce.remote.connecting" = "#C18401"
-"lapce.remote.disconnected" = "#E45649"
+"lapce.remote.icon" = "$blue"
+"lapce.remote.local" = "$black"
+"lapce.remote.connected" = "$green"
+"lapce.remote.connecting" = "$yellow"
+"lapce.remote.disconnected" = "$red"
 
 "lapce.plugin.name" = "#DDDDDD"
 "lapce.plugin.description" = "$white"
@@ -132,9 +132,8 @@ yellow = "#e0af68"
 "activity.background" = "#1a1b26"
 "activity.current" = "#30374b"
 
-
-
-
+"debug.breakpoint" = "$red"
+"debug.breakpoint.hover" = "$grey"
 
 "palette.background" = "#1a1b26"
 "palette.foreground" = "#a9b1d6"
@@ -149,6 +148,7 @@ yellow = "#e0af68"
 "panel.current.foreground" = "#a9b1d6"
 "panel.current.foreground.dim" = "#30374b"
 "panel.hovered.background" = "#30374b"
+"panel.hovered.active.background" = ""
 "panel.hovered.foreground" = "#a9b1d6"
 "panel.hovered.foreground.dim" = "#30374b"
 
