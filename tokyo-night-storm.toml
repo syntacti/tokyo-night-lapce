@@ -150,6 +150,9 @@ magenta = "#bb9af7"
 "activity.background" = "#24283b"
 "activity.current" = "#30374b"
 
+"debug.breakpoint" = "$red"
+"debug.breakpoint.hover" = "$grey"
+
 "panel.background" = "#24283b"
 "panel.foreground" = "#787c99"
 "panel.foreground.dim" = "#30374b"

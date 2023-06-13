@@ -132,9 +132,8 @@ yellow = "#e0af68"
 "activity.background" = "#1a1b26"
 "activity.current" = "#30374b"
 
-
-
-
+"debug.breakpoint" = "$red"
+"debug.breakpoint.hover" = "$grey"
 
 "palette.background" = "#1a1b26"
 "palette.foreground" = "#bdc7f0"
